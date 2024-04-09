@@ -1,0 +1,220 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header
+{
+    background-position: center;   
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul 
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container
+{
+    max-width: 1140px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 15px;
+}
+
+nav .container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.links
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 17px;
+}
+
+.links a
+{
+    color: #8C8A8A;
+    font-size: 18px;
+    margin: 0 15px;
+    padding-bottom: 20px;
+    display: inline-block;
+}
+
+.foto
+{
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.about img
+{
+    width: 100%;
+    max-width: 1110px;
+}
+
+.about .content
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.con1
+{
+    background-color: #F0F0F0;
+    max-width: 730px;
+    width: 100%;
+    padding: 50px 95px 51px 40px;
+    margin-bottom: 30px;
+}
+
+.con1 h2
+{
+    color: #4581B7;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.con1 p
+{
+    color: #808080;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.con2
+{
+    background-color: #F0F0F0;
+    max-width: 350px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.con2 h2
+{
+    color: #4581B7;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    padding-top: 50px;
+    padding-left: 40px;
+}
+
+.con2 p
+{
+    color: #808080;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    padding-top: 25px;
+    padding-left: 40px;
+    padding-right: 24px;
+    padding-bottom: 27px;
+    width: 100%;
+}
+
+.con2 a
+{
+    color: #808080;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    padding-left: 40px;
+    padding-bottom: 54px;
+    display: block;
+}
+
+.footer .content
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.con3
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #F0F0F0;
+    max-width: 1110px;
+    width: 100%;
+    padding: 15px 40px;
+}
+
+.con3 a
+{
+    width: 254px;
+    height: 120px;
+}
+
+.con3 img
+{
+    max-width: 254px;
+    width: 100%;
+}
+
+.nizlogo
+{
+    display: flex;
+    justify-content: center;
+    height: 150px;
+}
+
+.con3 .text
+{
+    padding-top: 31px;
+    padding-bottom: 31px;
+}
+
+.con3 h3
+{
+    color: #808080;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.4px;
+    padding-bottom: 11px;
+}
+
+.con3 a
+{
+    color: #808080;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 28.75px;
+}
